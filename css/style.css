@@ -3,8 +3,57 @@ body {
   transition: ease-in-out 2s;
   margin: 0;
 }
+.btn{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 18px 30px;
+  cursor: pointer;
+  font-size: 0.9em;
+  position: relative;
+  left: 705px;
+}
+.btn :hover{
+  background-color: black;
+  transition: ease-in-out 1.2s;
+}
+.butn{
+  display: inline;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+}
+.butn :hover{
+  transform: rotateY(130deg);
+}
 
-.top-container {
+h1{
+  color: #ad9d9d;
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  transition: ease-in-out 2s;
+}
+h2{
+  color: #ad9d9d;
+  font-family: 'Montserrat', sans-serif;
+  transition: ease-in 2s;
+}
+h4{
+  color: white;
+}
+#heading{
+  color: white;
+}
+
+img{
+  display: inline;
+}
+
+label{
+  color: white;
+}
+
+.top-container{
   background-color: black;
   margin: 0;
   width: 100%;
@@ -12,79 +61,46 @@ body {
   margin: 0;
 }
 
-.navBar ul {
-
+.navBar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background: #16213e;
   font-size: 0.95em;
-  /*font-family: "Nunito Sans", sans-serif;*/
   text-transform: full-width;
   font-weight: bolder;
 }
 
-.navBar li {
+.navBar li{
   float: left;
   border-right: 2px solid #bbb;
 }
 
-.navBar li:last-child {
+.navBar li:last-child{
   border-right: none;
 }
 
-.navBar li a {
+.navBar li a{
   display: block;
   color: white;
   text-align: center;
   padding: 18px 16px;
   text-decoration: none;
   transition: ease-in-out 2s;
-  /*font-family: "Nunito Sans", sans-serif;*/
   text-transform: full-width;
   font-weight: bolder;
 }
 
-.navBar li a:hover {
+.navBar li a:hover{
   background-color: black;
   transition: ease-in-out 1.2s;
-}
-
-.middle{
-  flex-direction: column-reverse;
 }
 
 p{
   color: white;
 }
 
-label{
-  color: white;
-}
-h1{
-  color: #ad9d9d;
-  font-size: 40px;
-  font-family: 'Sacramento', cursive;
-  transition: ease-in-out 2s;
-}
-
-h2{
-  color: #ad9d9d;
-  font-family: 'Montserrat', sans-serif;
-  transition: ease-in 2s;
-
-}
-h4{
-  color: white;
-}
-
-#heading{
-  color: white;
-}
-img{
-  display: inline;
-}
 .star{
   position: relative;
   left: 500px;
