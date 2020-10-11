@@ -18,13 +18,13 @@ body {
   transition: ease-in-out 1.2s;
 }
 .butn{
-  display: inline;
-  cursor: pointer;
   background-color: black;
   border: none;
+  cursor: pointer;
+  display: inline;
 }
 .butn :hover{
-  transform: rotateY(130deg);
+  transform: rotateY(180deg);
 }
 
 h1{
@@ -37,6 +37,9 @@ h2{
   color: #ad9d9d;
   font-family: 'Montserrat', sans-serif;
   transition: ease-in 2s;
+}
+h3{
+  color: #16213e;
 }
 h4{
   color: white;
@@ -51,14 +54,6 @@ img{
 
 label{
   color: white;
-}
-
-.top-container{
-  background-color: black;
-  margin: 0;
-  width: 100%;
-  height: 602px;
-  margin: 0;
 }
 
 .navBar ul{
@@ -101,7 +96,24 @@ p{
   color: white;
 }
 
-.star{
-  position: relative;
-  left: 500px;
+thead{
+  background-color: #16213e;
+}
+td{
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+th{
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+.top-container{
+  background-color: black;
+  margin: 0;
+  width: 100%;
+  height: 602px;
+  margin: 0;
 }
